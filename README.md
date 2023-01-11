@@ -22,3 +22,7 @@ See: https://github.com/asciinema/asciinema-player/wiki/Custom-terminal-themes
 </body>
 </html>
 ```
+
+## Example
+
+[![asciicast](https://asciinema.org/a/MNPX0rSv8x6uQJOP7q3qpFoii.svg)](https://asciinema.org/a/MNPX0rSv8x6uQJOP7q3qpFoii)
