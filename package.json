@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Nord theme for asciinema",
   "scripts": {
-    "build": "npmx sass *.scss",
+    "build": "npx sass asciinema-theme-nord.scss asciinema-theme-nord.css",
     "lint": "npx stylelint \"*.{css,sass,scss,sss,less}\"",
     "stylelint-check": "npx stylelint-config-prettier-check"
   },
