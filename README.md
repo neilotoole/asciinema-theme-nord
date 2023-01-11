@@ -2,6 +2,8 @@
 
 [Nord theme](https://www.nordtheme.com) for [asciinema](https://asciinema.org).
 
+![Example output](./example.png)
+
 See: https://github.com/asciinema/asciinema-player/wiki/Custom-terminal-themes
 
 ## TLDR
@@ -29,9 +31,8 @@ Run the following to see the theme in action:
 
 ```shell
 npm install
-npx serve
-
-# Then visit http://localhost:3000/example
+npx serve &
+open http://locahhost:3000/example
 ```
 
 ## Reference
