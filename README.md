@@ -25,4 +25,24 @@ See: https://github.com/asciinema/asciinema-player/wiki/Custom-terminal-themes
 
 ## Example
 
-[![asciicast](https://asciinema.org/a/MNPX0rSv8x6uQJOP7q3qpFoii.svg)](https://asciinema.org/a/MNPX0rSv8x6uQJOP7q3qpFoii)
+Run the following to see the theme in action:
+
+```shell
+npm install
+npx serve
+
+# Then visit http://localhost:3000/example
+```
+
+## Reference
+
+To test the theme, a reference image was captured.
+
+![reference.png](reference.png)
+
+This [snippet](https://askubuntu.com/a/279014) was used to generate the output:
+
+```shell
+for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo ""                                                                        
+```
+

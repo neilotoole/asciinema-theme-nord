@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Nord theme for asciinema",
   "scripts": {
+    "postinstall": "npm run copy-player",
     "build": "npx sass asciinema-theme-nord.scss asciinema-theme-nord.css",
-    "postinstall": "shx cp node_modules/asciinema-player/dist/bundle/asciinema-player.css ./example && shx cp node_modules/asciinema-player/dist/bundle/asciinema-player.js ./example",
+    "postbuild": "npm run copy-player",
+    "copy-player": "shx cp node_modules/asciinema-player/dist/bundle/asciinema-player.css . && shx cp node_modules/asciinema-player/dist/bundle/asciinema-player.js .",
     "lint": "npx stylelint \"*.{css,sass,scss,sss,less}\"",
     "stylelint-check": "npx stylelint-config-prettier-check"
   },
@@ -28,6 +30,7 @@
   "homepage": "https://github.com/neilotoole/asciinema-theme-nord#readme",
   "devDependencies": {
     "asciinema-player": "^3.0.1",
+    "serve": "^14.1.2",
     "shx": "^0.3.4",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.4",

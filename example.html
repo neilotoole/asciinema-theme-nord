@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asciinema Nord Example</title>
+    <link rel="stylesheet" type="text/css" href="./asciinema-player.css" />
+    <link rel="stylesheet" type="text/css" href="./asciinema-theme-nord.css" />
+</head>
+<body>
+<h1>Asciinema Nord Example</h1>
+<div id="example"></div>
+<script src="./asciinema-player.js"></script>
+<script>
+    AsciinemaPlayer.create('./example.cast', document.getElementById('example'), {
+        autoPlay: true,
+        theme: 'nord',
+    });
+</script>
+</body>
+</html>
