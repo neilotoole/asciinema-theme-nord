@@ -1,5 +1,10 @@
 # asciinema-theme-nord
 
+> ## Merged to asciinema
+> 
+> This theme is now [incorporated](https://github.com/asciinema/asciinema-player/pull/205) into asciinema, so you no longer need to follow the instructions below to use. Just set your theme to `nord`. This repo is now archived.
+
+
 [Nord theme](https://www.nordtheme.com) for [asciinema](https://asciinema.org).
 
 ![Example output](./example.png)
@@ -24,6 +29,7 @@ See: https://github.com/asciinema/asciinema-player/wiki/Custom-terminal-themes
 </body>
 </html>
 ```
+
 
 ## Example
 
